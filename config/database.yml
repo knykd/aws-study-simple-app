@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: aws-study-simple-app_production
+  database: aws-study-simple-app-production
   username: aws-study-simple-app
   password: <%= ENV['AWS-STUDY-SIMPLE-APP_DATABASE_PASSWORD'] %>
