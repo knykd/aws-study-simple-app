@@ -10,8 +10,8 @@ require "capistrano/bundler"
 require "capistrano/rails/migrations"
 require "capistrano/rails/assets"
 require "capistrano/scm/git"
-require "capistrano/rails/puma"
-require "capistrano/rails/nginx"
+require "capistrano/puma"
+require "capistrano/nginx"
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
