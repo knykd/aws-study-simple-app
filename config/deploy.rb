@@ -2,7 +2,7 @@
 lock "~> 3.11.2"
 
 set :application, "aws-study-simple-app"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:knykd/aws-study-simple-app.git"
 
 set :user, 'okada'
 set :deploy_to, "/var/www/aws-study-simple-app"
